@@ -14,8 +14,6 @@ end
 
 def take_a_number(line, person)
     the_line = []
-    line.each_with_index
-    puts "Welcome, #{person}"
   end
 end
 
