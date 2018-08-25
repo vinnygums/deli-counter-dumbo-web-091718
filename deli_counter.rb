@@ -21,7 +21,9 @@ def now_serving(line)
 end
 
 def take_a_number(line, person)
+  empty_line = []
   line.each_with_index do |person, place_in_line|
+   
    puts "Welcome, #{person}. You are number #{place_in_line +1} in line."
   end
 end
