@@ -13,4 +13,5 @@ def line(array_of_people)
 end
 
 def take_a_number(line, person)
-  
+  puts line << person
+end
