@@ -19,3 +19,8 @@ def now_serving(line)
     puts "Currently serving #{line.shift}."
   end
 end
+
+def take_a_number(line, person)
+  line << person
+end
+  
