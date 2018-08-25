@@ -11,3 +11,4 @@ def line(array_of_people)
    puts "The line is currently:#{people_and_place}"
  end
 end
+
