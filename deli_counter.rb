@@ -12,15 +12,7 @@ def line(array_of_people)
  end
 end
 
-def take_a_number(line, person)
-    the_line = []
-  end
-end
 
 def now_serving(line)
-  if line.size == 0
-    puts "There is nobody waiting to be served."
-  else
-    puts "Currently serving."
-  end
+  
 end
