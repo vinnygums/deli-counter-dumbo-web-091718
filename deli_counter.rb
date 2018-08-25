@@ -13,6 +13,8 @@ def line(array_of_people)
 end
 
 def take_a_number(line, person)
-    line << person
-    puts "Welcome, #{person}. You are number"
+    the_line = []
+    line.each_with_index
+    puts "Welcome, #{person"
 end
+
