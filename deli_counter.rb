@@ -21,6 +21,8 @@ def now_serving(line)
 end
 
 def take_a_number(line, person)
-  line << person
+  line.each_with_index do |person, place_in_line|
+   line << person
+  end
 end
   
