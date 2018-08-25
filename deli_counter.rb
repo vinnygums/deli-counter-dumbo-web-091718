@@ -19,5 +19,5 @@ def take_a_number(line, person)
   end
 end
 
-def now_serving
-  person
+def now_serving(line)
+  if
