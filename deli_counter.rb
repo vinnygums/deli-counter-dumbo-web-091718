@@ -21,6 +21,6 @@ def now_serving(line)
 end
 
 def take_a_number(line, person)
-  
+  line << person
 end
   
