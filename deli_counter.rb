@@ -13,5 +13,7 @@ def line(array_of_people)
 end
 
 def take_a_number(line, person)
-  puts line << person
+  line.each_with_index do |person, place_in_line|
+    puts "Welcome #{person}. You are number #{place_in_line}."
+  end
 end
