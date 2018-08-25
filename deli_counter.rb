@@ -12,7 +12,6 @@ def line(array_of_people)
  end
 end
 
-
 def now_serving(line)
   if line.size == 0
     puts "There is nobody waiting to be served!"
