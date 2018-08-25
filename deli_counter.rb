@@ -13,6 +13,4 @@ def line(array_of_people)
 end
 
 def take_a_number(line, person)
-  place_in_line = 
-  line.each_with_index do |person, ticket_number|
-    
+  
